@@ -3,8 +3,8 @@ const board = document.getElementById("board");
 const rows = 4;
 const cols = 4;
 
-const boardWidth = 1000;
-const boardHeight = 800;
+const boardWidth = 2360;
+const boardHeight = 1640;
 
 const pieceWidth = boardWidth / cols;
 const pieceHeight = boardHeight / rows;
