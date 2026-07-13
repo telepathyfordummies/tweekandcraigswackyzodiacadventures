@@ -15,7 +15,7 @@ let placedCount = 0;
 const totalPieces = rows * cols;
 
 // -----------------------------
-// scatter outside board ok this is actualy right dont fw this again 
+// scatter outside board ok this is actualy right dont fw this again  
 // -----------------------------
 function getRandomOutsideBoard() {
     const boardRect = board.getBoundingClientRect();
