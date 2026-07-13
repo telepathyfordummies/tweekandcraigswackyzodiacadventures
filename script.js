@@ -9,7 +9,7 @@ const boardHeight = 1000;
 const pieceWidth = boardWidth / cols;
 const pieceHeight = boardHeight / rows;
 
-const imageSrc = "zodiac.jpg";
+const imageSrc = "zodiac.png";
 
 let placedCount = 0;
 const totalPieces = rows * cols;
