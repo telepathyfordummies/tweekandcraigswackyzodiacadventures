@@ -1,10 +1,10 @@
 const board = document.getElementById("board");
 
-const rows = 5;
-const cols = 5;
+const rows = 4;
+const cols = 4;
 
-const boardWidth = 2360;
-const boardHeight = 1640;
+const boardWidth = 1000;
+const boardHeight = 800;
 
 const pieceWidth = boardWidth / cols;
 const pieceHeight = boardHeight / rows;
@@ -15,7 +15,7 @@ let placedCount = 0;
 const totalPieces = rows * cols;
 
 // -----------------------------
-// scatter outside board ok this is actualy right dont fw this again  
+// scatter outside board ok this is actualy right dont fw this again 
 // -----------------------------
 function getRandomOutsideBoard() {
     const boardRect = board.getBoundingClientRect();
@@ -136,7 +136,7 @@ function enableDrag(piece) {
             console.log("Placed:", placedCount, "/", totalPieces);
 
             if (placedCount === totalPieces) {
-                console.log(" COMPLETE");
+                console.log("PUZZLE COMPLETE");
                 completePuzzle();
             }
         }
