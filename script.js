@@ -144,7 +144,7 @@ function enableDrag(piece) {
 }
 
 // -----------------------------
-// COMPLETION POPUP BUT THIS ONE JUST CLOSES IT SO YOU CAN SEE THE QR
+// COMPLETION POPUP
 // -----------------------------
 function completePuzzle() {
 
@@ -153,6 +153,7 @@ function completePuzzle() {
     modal.classList.add("show");
 
     document.getElementById("continueBtn").onclick = () => {
-        modal.classList.remove("show");
+        window.location.href =
+            "https://telepathyfordummies.github.io/s0rryf0rg3tt1ngl0st/story.html";
     };
 }
